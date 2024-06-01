@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Marketing Agency</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Main container -->
+    <div class="container-fluid">
+        <!-- Row for main content -->
+        <div class="row align-items-center">
+            <!-- Text content on the left -->
+            <div class="col-md-6 text-center text-md-left">
+                <h5 class="text-danger">AWARD WINNING</h5>
+                <h1 class="display-4 font-weight-bold">DIGITAL MARKETING AGENCY</h1>
+                <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque vitae ante at elit fringilla ac at purus. Morbi sed lacus nec risus finibus feugiat et fermentum.</p>
+                <!-- Contact button to open modal -->
+                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#contactModal">CONTACT US</button>
+            </div>
+            <!-- Image on the right -->
+            <div class="col-md-6">
+                <img src="digitalWomaen.png" alt="Marketing Image" class="img-fluid">
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Modal -->
+    <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <!-- Modal header -->
+                <div class="modal-header">
+                    <h5 class="modal-title" id="contactModalLabel">Talk to us</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <!-- Modal body with contact form -->
+                <div class="modal-body">
+                    <form action="https://getform.io/f/navvnvna" method="POST">
+                        <div class="form-group">
+                            <label for="workEmail">Work email*</label>
+                            <input type="email" class="form-control" id="workEmail" name="email" required>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="firstName">First name*</label>
+                                <input type="text" class="form-control" id="firstName" name="first_name" required>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="lastName">Last name*</label>
+                                <input type="text" class="form-control" id="lastName" name="last_name" required>
+                            </div>
+                        </div>
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="termsCheck" name="terms" required>
+                            <label class="form-check-label" for="termsCheck">I agree to Fyle's terms and conditions, and provide consent to send me communication.</label>
+                        </div>
+                        <button type="submit" class="btn btn-danger btn-block">Contact Us</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Section for Image Slide -->
+    <h5 class="ser-1">WHAT WE DO</h5>
+    <div class="services">
+        <h1>SERVICES PROVIDE FOR YOU</h1>
+        <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque vitae ante at elit fringilla ac at purus. Morbi sed lacus nec risus finibus feugiat et fermentum.</p>
+    </div>
+
+    <!-- Image slider container -->
+    <div class="container mt-5">
+        <div id="horizontalSlider" class="horizontal-slider">
+            <div class="slider-inner">
+                <!-- Slider items -->
+                <div class="slider-item">
+                    <div class="hover-container">
+                        <img src="ImageSIlder1.png" class="img-fluid" alt="Image 1">
+                        <div class="hover-overlay">
+                            <div class="hover-content">
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-item">
+                    <div class="hover-container">
+                        <img src="ImageSlider4.png" class="img-fluid" alt="Image 2">
+                        <div class="hover-overlay">
+                            <div class="hover-content">
+                                <!-- Link on hover -->
+                                <a href="https://fylehq.com" target="_blank" class="btn rdmore">READ MORE ==></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-item">
+                    <div class="hover-container">
+                        <img src="ImageSlider3.png" class="img-fluid" alt="Image 3">
+                        <div class="hover-overlay">
+                            <div class="hover-content">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-item">
+                    <div class="hover-container">
+                        <img src="ImageSIide2.png" class="img-fluid" alt="Image 4">
+                        <div class="hover-overlay">
+                            <div class="hover-content">
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-item">
+                    <div class="hover-container">
+                        <img src="ImageSlider4.png" class="img-fluid" alt="Image 5">
+                        <div class="hover-overlay">
+                            <div class="hover-content">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Slider dots for navigation -->
+            <div class="slider-dots">
+                <span class="dot" data-slide="0"></span>
+                <span class="dot" data-slide="1"></span>
+                <span class="dot" data-slide="2"></span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Section for project details -->
+    <div class="container">
+        <h5 class="text-center mt-5 text-danger">OUR PROJECT</h5>
+        <h3 class="text-center">WHY WE ARE BEST</h3>
+        <div class="row mt-4">
+            <!-- Image display section -->
+            <div class="col-md-6">
+                <div id="image-display">
+                    <img src="imageD1.png" alt="Image 1" class="img-fluid">
+                </div>
+            </div>
+            <!-- Text boxes with clickable items to change image -->
+            <div class="col-md-6">
+                <div class="text-box" data-image="imageD1.png">
+                    <h4>Genderless Kei - Japan's Hot</h4>
+                    <p>Set to launch on the manufacturer's new A330neo aircraft in 2017, it's offering lots of...</p>
+                </div>
+                <div class="text-box" data-image="imageD2.png">
+                    <h4>Better Strategy & Quality</h4>
+                    <p>Set to launch on the manufacturer's new A330neo aircraft in 2017, it's offering lots of...</p>
+                </div>
+                <div class="text-box" data-image="imageD3.png">
+                    <h4>Genderless Kei - Japan's Hot</h4>
+                    <p>Set to launch on the manufacturer's new A330neo aircraft in 2017, it's offering lots of...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Section for company growth statistics -->
+    <div class="container text-center my-5">
+        <h5 class="text-red text-danger">EXPERTS GROWTH</h5>
+        <h3 class="mb-4">OUR COMPANY GROWTH</h3>
+        <div class="row">
+            <!-- Growth cards -->
+            <div class="col-md-3">
+                <div class="card growth-card">
+                    <div class="card-body">
+                        <i class="fas fa-heart fa-2x mb-2"></i>
+                        <h4>199 +</h4>
+                        <p>Satisfied Customers</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card growth-card">
+                    <div class="card-body">
+                        <i class="fas fa-clock fa-2x mb-2"></i>
+                        <h4>1591 +</h4>
+                        <p>Days Of Operation</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card growth-card">
+                    <div class="card-body">
+                        <i class="fas fa-check-circle fa-2x mb-2"></i>
+                        <h4>283 +</h4>
+                        <p>Complete Projects</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card growth-card">
+                    <div class="card-body">
+                        <i class="fas fa-trophy fa-2x mb-2"></i>
+                        <h4>75 +</h4>
+                        <p>Win Awards</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript libraries -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
